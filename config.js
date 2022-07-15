@@ -4,11 +4,11 @@ global.owner = [
   ['6281222746323'],
   ['6281222746323'],
   ['6282396055503'], 
-  ['6281222746323', 'Owner AraBotz', true]  
+  ['6281222746323', 'Owner ArhanBotz', true]  
   
 ] 
 global.ownername = [['Hanzzz Official']]
-global.namabot = [['AraBot-MD']]
+global.namabot = [['ArhanBot-MD']]
 global.ownerinsta = [['@Hanz_Ganz_888816']]
 global.mods = [] 
 global.prems = [] 
@@ -44,7 +44,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'AraBot-MD'
+  var sticker_name = 'ArhanBot-MD'
   var sticker_author = 'By Hanz Official'
 } else {
   var sticker_name = stickerpack.spackname
